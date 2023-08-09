@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  padding: 0;
+  margin: 0;
+  color: #1f275e;
+}
+body {
+  background-color: #f3f3fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box-container {
+  background-color: white;
+  width: 450px;
+  height: 650px;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0 60px;
+}
+
+.image-container {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #bcbccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.image-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.image-container p {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.price {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.price-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.price-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.price h6 {
+  font-size: 14px;
+  font-weight: 300;
+}
+.options {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.options span {
+  border: 1px solid #bcbccc;
+  border-radius: 15px;
+  padding: 15px;
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+.options span:hover {
+  background-color: #1f275e;
+  color: white;
+}
+
+.options .active {
+  background-color: #1f275e;
+  color: white;
+}
+
+.downloads p {
+  font-weight: 700;
+  font-size: 15px;
+}
+.button {
+  display: flex;
+  width: 100%;
+  flex-direction: center;
+  align-items: center;
+}
+.button button {
+  background-color: #1f275e;
+  color: white;
+  width: 100%;
+  appearance: none;
+  border: none;
+  height: 70px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: white;
+  color: #1f275e;
+  border: 1px solid #1f275e;
+}
